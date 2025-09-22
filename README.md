@@ -2,7 +2,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 ![C](https://img.shields.io/badge/language-C-00599C?style=flat&logo=c)
-![Build Status](https://github.com/uictorius/imagewty-tool/actions/workflows/build.yml/badge.svg)
+![Build Status](https://github.com/uictorius/imagewty-tool/actions/workflows/ci.yml/badge.svg)
 ![Version](https://img.shields.io/github/v/tag/uictorius/imagewty-tool)
 
 **IMAGEWTY Tool** is an open-source C utility for **inspecting, extracting, and repacking IMAGEWTY firmware images** used in Allwinner-based devices.
