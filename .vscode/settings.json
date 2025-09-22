@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "checksum.h": "c",
+        "config_file.h": "c",
+        "img_extract.h": "c",
+        "img_header.h": "c",
+        "print_info.h": "c",
+        "img_repack.h": "c",
+        "string": "c"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "LLVM",
+    "editor.formatOnSave": true,
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/include",
+        "${workspaceFolder}/src"
+    ],
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-x64"
+}

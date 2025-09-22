@@ -53,3 +53,12 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Ignore extracted dump directories
+*.dump
+
+# Ignore the compiled executable
+imagewty-tool
+
+# Ignore original image files
+*.img
