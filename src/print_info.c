@@ -93,9 +93,11 @@ void print_file_headers(ImageWTYFileHeader* files, uint32_t num_files)
     {
         ImageWTYFileHeader* fh = &files[i];
 
-        printf("%-*u %-*s %-*s %-*s %-*u %-*u %-*u\n", w_no, i + 1, w_name, fh->filename,
+        char offset_str[16];
+        snprintf(offset_str, sizeof(offset_str), "0x%X", fh->offset);
+        printf("%-*u %-*s %-*s %-*s %-*u %-*u %-*s\n", w_no, i + 1, w_name, fh->filename,
                w_maintype, fh->maintype, w_subtype, fh->subtype, w_stored, fh->stored_length,
-               w_orig, fh->original_length, w_offset, fh->offset);
+               w_orig, fh->original_length, w_offset, offset_str);
 
         // Optional human-readable description
         const char* desc = describe_file(fh->filename);
