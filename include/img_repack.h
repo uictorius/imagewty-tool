@@ -8,6 +8,14 @@
 #define IMG_REPACK_H
 
 /**
+ * @def PADDING_ALIGNMENT
+ * @brief Alignment boundary used when calculating padded file sizes.
+ *
+ * All stored file lengths are rounded up to a multiple of this alignment.
+ */
+#define PADDING_ALIGNMENT 16
+
+/**
  * @brief Repack all files from a dump folder into a single IMAGEWTY image.
  *
  * @param dump_folder Path to the folder containing extracted files and image.cfg.
