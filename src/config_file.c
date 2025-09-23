@@ -260,7 +260,7 @@ int load_image_config(const char* cfg_path, ImageWTYHeader* hdr, ImageWTYFileHea
 
             /* Field maps for a single file entry */
             UIntFieldMap file_uint_fields[] = {{"filename_length", &fh->filename_length},
-                                               {"header_size", &fh->header_size},
+                                               {"file_header_size", &fh->header_size},
                                                {"unknown0", &fh->unknown0},
                                                {"stored_length", &fh->stored_length},
                                                {"pad1", &fh->pad1},
