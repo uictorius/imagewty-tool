@@ -20,7 +20,7 @@
 
 ---
 
-### Compatibility (tested)
+### Compatibility (tested on PhoenixSuit v1.19)
 
 - Header Version `0x00000300` (v3)
 - Header Version `0x00000403` (v4)
