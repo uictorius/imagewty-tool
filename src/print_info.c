@@ -184,6 +184,9 @@ static const FileDesc file_table[] = {
                  "hardware-specific configurations\napplied over the main device tree."},
     {"misc.fex", "Generic binary file used by the bootloader/kernel\nfor miscellaneous "
                  "configuration or control data."},
+    {"vmediadata.fex", "Checksum for mediadata.fex."},
+    {"mediadata.fex", "FAT16 image with system files, apps, and media assets."},
+    {"windows", "Small metadata file containing device ID, hostname, and timestamp information."},
 };
 
 /**
